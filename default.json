@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "commitMessagePrefix": "",
+  "commitMessageTopic": "{{depName}}",
+  "packageRules": [
+    {
+      "groupName": "changesets monorepo",
+      "matchPackagePrefixes": "@changesets"
+    }
+  ]
+}
